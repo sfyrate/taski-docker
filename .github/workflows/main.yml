@@ -89,7 +89,6 @@ jobs:
           tags: sfyrate/taski_backend:latest 
     frontend_tests:
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v3
     - name: Set up nodeJS
